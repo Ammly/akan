@@ -1,10 +1,11 @@
-# AKAN NAMES
+# Akan Name
 
-## project description
+## Project description
 
-   Akan names is a tradition of naming children by the people of Akan clan in Ghana.
-   They pick the children depending on the day of the week they were born.
-   This webpage will generate your Akan name, given the date of birth and gender.
+This webpage will generate your Akan name, given the date of birth and gender.
+
+Akan names is a tradition of naming children by the people of Akan clan in Ghana.
+They pick the children depending on the day of the week they were born.
 
 ## installing
 
@@ -15,9 +16,10 @@
 ## Technologies used
 
 In this project we've used several technologies
-    1. Html
-    2. Bootstrap CSS
-    3. Bootstrap datepicker
+1. Html
+2. Bootstrap CSS
+3. Bootstrap datepicker
+4. JQuery
         
        
 ## lisencing and copyright infomation
