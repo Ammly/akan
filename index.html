@@ -9,6 +9,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css" />
 
     <title>Akan Names</title>
 </head>
@@ -27,6 +31,7 @@
                         <h4 class="text-white">Contact</h4>
                         <ul class="list-unstyled">
                             <li><a href="https://twitter.com/ammlyf" class="text-white">Follow on Twitter</a></li>
+                            <li><a href="https://github.com/ammly" class="text-white">Follow on Github</a></li>
                         </ul>
                     </div>
                 </div>
@@ -59,7 +64,7 @@
                     that they we acctually born For example, the day of their birth or the manner in which they were
                     born may determine which name they get irrespective of their gender. </p>
                 <p>
-                    <a href="#" class="btn btn-primary my-2">Learn Yours</a>
+                    <a href="#akan-form" class="btn btn-primary my-2">Learn Yours</a>
                 </p>
             </div>
         </section>
@@ -73,10 +78,10 @@
                             <h2>Enter your details</h2>
 
                             <!-- Form code begins -->
-                            <form method="post" class="akan_name">
+                            <form method="post" class="akan_name" id="akan-form">
                                 <div class="form-group">
                                     <label class="control-label" for="gender">Select your Gender</label>
-                                    <select id="gender" name="gender" class="browser-default custom-select">
+                                    <select id="gender" name="gender" class="browser-default selectpicker">
                                         <option>Select Gender</option>
                                         <option value="male">Male</option>
                                         <option value="female">Female</option>
@@ -119,6 +124,64 @@
                                 The well thought and organized naming system of the Akan’s was initiated by the
                                 ancestors and has attracted so many people’s attention as they desire to know more about
                                 these names.</p>
+
+                            <hr>
+
+                            <h3>Akan Name Options</h3>
+
+                            <p>Male names</p>
+
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Sunday</th>
+                                        <th scope="col">Monday</th>
+                                        <th scope="col">Tuesday</th>
+                                        <th scope="col">Wednesday</th>
+                                        <th scope="col">Thursday</th>
+                                        <th scope="col">Friday</th>
+                                        <th scope="col">Saturday</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Kwasi</td>
+                                        <td>Kwadwo</td>
+                                        <td>Kwabena</td>
+                                        <td>Kwahu</td>
+                                        <td>Yaw</td>
+                                        <td>Kofi</td>
+                                        <td>Kwame</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <p>Female names</p>
+
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Sunday</th>
+                                        <th scope="col">Monday</th>
+                                        <th scope="col">Tuesday</th>
+                                        <th scope="col">Wednesday</th>
+                                        <th scope="col">Thursday</th>
+                                        <th scope="col">Friday</th>
+                                        <th scope="col">Saturday</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Akosua</td>
+                                        <td>Adowa</td>
+                                        <td>Abenaa</td>
+                                        <td>Akua</td>
+                                        <td>Yaa</td>
+                                        <td>Afua</td>
+                                        <td>Ama</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                     <div class="col-md-2"></div>
@@ -140,29 +203,25 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
     <!-- Bootstrap Date-Picker Plugin -->
     <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css" />
 
     <script>
         $(document).ready(function () {
             let date_input = $("input[name='date']"); //our date input has the name "date"
-            $("select").change(function () {
-                let gender = $(this).val(); // selected gender value
-                $("#akan-name").empty();; // clear display div
-            });
+            let select = $('select').selectpicker(); // select 
             let container = $(".bootstrap-iso form").length > 0 ? $(".bootstrap-iso form").parent() : "body";
+
             let options = {
                 format: "mm-dd-yyyy",
                 container: container,
@@ -171,44 +230,46 @@
             };
             date_input.datepicker(options);
 
-            $(".btn").click(function () {
-                $(".akan_name").submit(function (event) {
+            $(".akan_name").submit(function (event) {
 
-                    event.preventDefault();
+                event.preventDefault();
 
-                    console.log(gender);
+                if (date_input.length != null && gender.length != null) {
+                    let male_names = ["Kwasi", "Kwadwo", "Kwabena", "Kwahu", "Yaw", "Kofi",
+                        "Kwame"
+                    ];
+                    let female_names = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua",
+                        "Ama"
+                    ];
 
-                    if (date_input.length != null && gender.length != null) {
-                        let male_names = ["Kwasi", "Kwadwo", "Kwabena", "Kwahu", "Yaw", "Kofi",
-                            "Kwame"
-                        ];
-                        let female_names = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua",
-                            "Ama"
-                        ];
+                    let gender = select.val();
 
-                        let d = new Date(date_input.val());
-                        let date = d.getDay();
+                    let d = new Date(date_input.val());
+                    let date = d.getDay();
 
-                        let akan_name = "";
+                    let akan_name = "";
 
-                        if (gender == "male") {
-                            akan_name = male_names[date];
-                        } else {
-                            akan_name = female_names[date];
-                        }
-
-                        console.log(date_input);
-                        console.log(gender);
-                        console.log(akan_name);
-
-                        $("#akan-name").append(
-                            `<h3>Your Akan Name is <u>${akan_name}</u> </h3>`);
-
-                        $('input[name="date"], select[name="gender"]').val('');
+                    if (gender == "male") {
+                        akan_name = male_names[date];
+                    } else {
+                        akan_name = female_names[date];
                     }
 
+                    console.log("Date: " + date_input.val());
+                    console.log("Gender: " + gender);
+                    console.log("Akan name: " + akan_name);
 
-                });
+                    $("#akan-name").append(
+                        `<h3>Your Akan Name is <u>${akan_name}</u> </h3>`);
+
+                    // $('input[name="date"], select[name="gender"]').val('');
+                } else {
+                    $("#akan-name").append(
+                        `<h3>Select options to get your Akan name</h3>`);
+                    $('select').focus();
+                }
+
+
             });
 
         })
