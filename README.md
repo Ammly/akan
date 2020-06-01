@@ -2,8 +2,8 @@
 
 ## project description
 
-   Akan namesis a tradition naming children originated from the people of ghana from Akan clan.
-   They pick the children depending on the day that they were born.
+   Akan names is a tradition of naming children by the people of Akan clan in Ghana.
+   They pick the children depending on the day of the week they were born.
    This webpage will generate your Akan name, given the date of birth and gender.
 
 ## installing
