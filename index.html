@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Akan Names</title>
+</head>
+
+<body>
+    <header>
+        <div class="collapse bg-dark" id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 py-4">
+                        <a href="#about">
+                            <h4 class="text-white">About</h4>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <h4 class="text-white">Contact</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="https://twitter.com/ammlyf" class="text-white">Follow on Twitter</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+            <div class="container d-flex justify-content-between">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2"
+                        viewBox="0 0 24 24" focusable="false">
+                        <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
+                        <circle cx="12" cy="13" r="4" /></svg>
+                    <strong>Akan</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
+                    aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main role="main">
+
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h1 class="jumbotron-heading">Akan Name</h1>
+                <p class="lead text-muted">The Akan people of Ghana frequently name there children according to the day
+                    that they we acctually born For example, the day of their birth or the manner in which they were
+                    born may determine which name they get irrespective of their gender. </p>
+                <p>
+                    <a href="#" class="btn btn-primary my-2">Learn Yours</a>
+                </p>
+            </div>
+        </section>
+        <section class="py-5 bg-light">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                        <div class="card mb-4 shadow-sm p-4">
+                            <h2>Enter your details</h2>
+
+                            <!-- Form code begins -->
+                            <form method="post" class="akan_name">
+                                <div class="form-group">
+                                    <label class="control-label" for="gender">Select your Gender</label>
+                                    <select id="gender" name="gender" class="browser-default custom-select">
+                                        <option>Select Gender</option>
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <!-- Date input -->
+                                    <label class="control-label" for="date">Select your Birth date</label>
+                                    <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY"
+                                        type="text" />
+                                </div>
+                                <div class="form-group">
+                                    <!-- Submit button -->
+                                    <button class="btn btn-primary " name="submit" type="submit">Submit</button>
+                                </div>
+                            </form>
+                            <!-- Form code ends -->
+                            <hr>
+                            <div id="akan-name"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                        <div class="card mb-4 shadow-sm p-4">
+                            <h2>About Akan Names</h2>
+                            <p>The Akan people of Ghana frequently name there children according to the day that they we
+                                acctually born For example, the day of their birth or the manner in which they were born
+                                may determine which name they get irrespective of their gender. These Akan names signify
+                                the day one is born. According to Akan tradition, each child is born with a name
+                                associated to their soul. The day the child is born is therefore determined by the soul.
+                                The well thought and organized naming system of the Akan’s was initiated by the
+                                ancestors and has attracted so many people’s attention as they desire to know more about
+                                these names.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-muted">
+        <div class="container">
+            <p class="float-right">
+                <a href="#">Back to top</a>
+            </p>
+            <p> &copy; Ammly</p>
+        </div>
+    </footer>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <!-- Bootstrap Date-Picker Plugin -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css" />
+
+    <script>
+        $(document).ready(function () {
+            let date_input = $("input[name='date']"); //our date input has the name "date"
+            $("select").change(function () {
+                let gender = $(this).val(); // selected gender value
+                $("#akan-name").empty();; // clear display div
+            });
+            let container = $(".bootstrap-iso form").length > 0 ? $(".bootstrap-iso form").parent() : "body";
+            let options = {
+                format: "mm-dd-yyyy",
+                container: container,
+                todayHighlight: true,
+                autoclose: true,
+            };
+            date_input.datepicker(options);
+
+            $(".btn").click(function () {
+                $(".akan_name").submit(function (event) {
+
+                    event.preventDefault();
+
+                    console.log(gender);
+
+                    if (date_input.length != null && gender.length != null) {
+                        let male_names = ["Kwasi", "Kwadwo", "Kwabena", "Kwahu", "Yaw", "Kofi",
+                            "Kwame"
+                        ];
+                        let female_names = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua",
+                            "Ama"
+                        ];
+
+                        let d = new Date(date_input.val());
+                        let date = d.getDay();
+
+                        let akan_name = "";
+
+                        if (gender == "male") {
+                            akan_name = male_names[date];
+                        } else {
+                            akan_name = female_names[date];
+                        }
+
+                        console.log(date_input);
+                        console.log(gender);
+                        console.log(akan_name);
+
+                        $("#akan-name").append(
+                            `<h3>Your Akan Name is <u>${akan_name}</u> </h3>`);
+
+                        $('input[name="date"], select[name="gender"]').val('');
+                    }
+
+
+                });
+            });
+
+        })
+    </script>
+    </script>
+</body>
+
+</html>
