@@ -22,7 +22,7 @@ In this project we've used several technologies
         
        
 ## Lisencing
-  MIT License
+  [MIT License](LICENSE.md)
 
 ## Contributer
 
