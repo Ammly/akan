@@ -4,10 +4,9 @@
 
 This webpage will generate your Akan name, given the date of birth and gender.
 
-Akan names is a tradition of naming children by the people of Akan clan in Ghana.
-They pick the children depending on the day of the week they were born.
+Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
 
-## installing
+## Installing
 
 1. ` git clone https://github.com/Ammly/akan.git`
 2. ` cd akan/ `
@@ -22,7 +21,7 @@ In this project we've used several technologies
 4. JQuery
         
        
-## lisencing and copyright infomation
+## Lisencing
   MIT License
 
 ## Contributer
