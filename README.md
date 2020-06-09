@@ -18,8 +18,6 @@ In this project we've used several technologies
 
 1. Html
 2. Bootstrap CSS
-     
-
 
 ## Lisencing
 
