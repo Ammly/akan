@@ -8,21 +8,22 @@ Akan names are derived from Ghanian culture. Frequently in Ghana, children are g
 
 ## Installing
 
-1. ` git clone https://github.com/Ammly/akan.git`
-2. ` cd akan/ `
-2. Open the webpage in a browser
-  
+1. `git clone https://github.com/Ammly/akan.git`
+2. `cd akan/`
+3. Open the webpage in a browser
+
 ## Technologies used
 
 In this project we've used several technologies
+
 1. Html
 2. Bootstrap CSS
-3. Bootstrap datepicker
-4. JQuery
-        
-       
+     
+
+
 ## Lisencing
-  [MIT License](LICENSE)
+
+[MIT License](LICENSE)
 
 ## Contributer
 
